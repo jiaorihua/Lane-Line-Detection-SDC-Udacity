@@ -16,7 +16,7 @@ image -> gray -> gaussian_blur -> canny edge detection -> region of interest -> 
 
 At first I thought I couldn't do it but after a lot of trial and error got the following pipeline working :P for the challenge video:
 
-image **->** gamma_correction **->** canny edge detection **->** region of interest **->** hough_transform **->** line averaging **->** overlay
+**image** -> **gamma_correction** -> **canny edge detection** -> **region of interest** -> **hough_transform** -> **line averaging** -> **overlay**
 
 I did this so that in the challege video, in the part where there is a lot of SUNLIGHT on the road the lane lines are more prominant after the gamma correction
 
@@ -31,9 +31,7 @@ I did this so that in the challege video, in the part where there is a lot of SU
 
 #Challenge Video Processed Using My Pipeline
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
-" target="_blank"><img src="http://img.youtube.com/vi/sevWAm7W700/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="800" height="500" border="10" /></a>
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/sevWAm7W700/0.jpg)](http://www.youtube.com/watch?v=sevWAm7W700)
 
 #
 **Step 1:** Getting setup with Python
