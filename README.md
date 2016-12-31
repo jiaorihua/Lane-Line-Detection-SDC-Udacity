@@ -1,6 +1,5 @@
-####Python:
 ![python logo](https://www.livecoding.tv/static/img/icons/coding_categories_small/python-sm.png "Python Logo")
-    ####OpenCV: 
+ 
 ![opencv logo](https://github.com/muddassir235/LLD_SDC/blob/master/OpenCV_Logo_WhiteBG.png "OpenCV Logo")
 
 #**Finding Lane Lines on the Road** 
