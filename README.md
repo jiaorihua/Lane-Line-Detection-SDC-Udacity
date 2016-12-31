@@ -1,3 +1,8 @@
+Python:
+![python logo](https://www.livecoding.tv/static/img/icons/coding_categories_small/python-sm.png "Python Logo")
+OpenCV:
+![opencv logo]()
+
 #**Finding Lane Lines on the Road** 
 <img src="laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
 
