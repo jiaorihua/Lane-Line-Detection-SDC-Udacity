@@ -1,12 +1,13 @@
 ![python logo](https://www.livecoding.tv/static/img/icons/coding_categories_small/python-sm.png "Python Logo")
-![opencv logo](https://github.com/muddassir235/LLD_SDC/blob/master/OpenCV_Logo_WhiteBG.png "OpenCV Logo")
+![opencv logo](https://github.com/muddassir235/LLD_SDC/blob/master/OpenCV_Logo_WhiteBG.png?raw=true "OpenCV Logo")
+![jupyter logo](https://github.com/muddassir235/Lane-Line-Detection-SDC-Udacity/blob/master/jupyter-sq-text.png?raw=true "Jupyter Logo")
 
-#**Finding Lane Lines on the Road** 
+# **Finding Lane Lines on the Road (Jupyter Notebook)**
 <img src="laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
 
 When we drive, we use our eyes to decide where to go.  The lines on the road that show us where the lanes are act as our constant reference for where to steer the vehicle.  Naturally, one of the first things we would like to do in developing a self-driving car is to automatically detect lane lines using an algorithm.
 
-##Toughts :-)
+## **Toughts :-)**
 
 Had a great time working on project 1 :-)
 
@@ -21,7 +22,7 @@ At first I thought I couldn't do it but after a lot of trial and error got the f
 I did this so that in the challege video, in the part where there is a lot of SUNLIGHT on the road the lane lines are more prominant after the gamma correction
 
 **My line averaging function works in the following way**:
- 
+
  - Takes as input all the hough lines
  - Separates them into left and right lines (Ignores the ones that are too close to horizontal)
  - Finds the average slopes and y-intercepts of the left and right lines respectively
@@ -29,14 +30,15 @@ I did this so that in the challege video, in the part where there is a lot of SU
  - Choose 0.615(ysize) as the top limit for the lines and ysize as the bottom
  - Draw lines such that the y limits are as stated above
 
-#Challenge Video Processed Using My Pipeline
+## **Challenge Video Processed Using My Pipeline:**
 
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/sevWAm7W700/0.jpg)](http://www.youtube.com/watch?v=sevWAm7W700)
 
+# **How to run the code:**
 #
 **Step 1:** Getting setup with Python
 
-To do this project, you will need Python 3 along with the numpy, matplotlib, and OpenCV libraries, as well as Jupyter Notebook installed. 
+To do this project, you will need Python 3 along with the numpy, matplotlib, and OpenCV libraries, as well as Jupyter Notebook installed.
 
 We recommend downloading and installing the Anaconda Python 3 distribution from Continuum Analytics because it comes prepackaged with many of the Python dependencies you will need for this and future projects, makes it easy to install OpenCV, and includes Jupyter Notebook.  Beyond that, it is one of the most common Python distributions used in data analytics and machine learning, so a great choice if you're getting started in the field.
 
@@ -96,4 +98,5 @@ Jupyter is an ipython notebook where you can run blocks of code and see results 
 
 A browser window will appear showing the contents of the current directory.  Click on the file called "P1.ipynb".  Another browser window will appear displaying the notebook.  Follow the instructions in the notebook to complete the project.  
 
-
+# **License:**
+This notebook is reusable under the Apache [license](https://github.com/muddassir235/Lane-Line-Detection-SDC-Udacity/blob/master/license.txt) 2.0.
